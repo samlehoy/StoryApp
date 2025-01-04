@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="edittext_background_color">#1E1E1E</color> <!-- Dark Gray -->
+    <color name="edittext_stroke_color">#3A3A3A</color> <!-- Darker Gray -->
+
+    <color name="menu_icon_tint">#FFFFFF</color> <!-- White -->
+
+    <color name="primaryColor">#909EDC</color>
+    <color name="secondaryColor">#8E90A0</color>
+    <color name="tertiaryColor">#A5889E</color>
+    <color name="errorColor">#FF5449</color>
+    <color name="successColor">#AAD9AA</color>
+    <color name="neutral">#988E8F</color>
+    <color name="neutralVariant">#9F8C8E</color>
+
+    <color name="fab_color">@color/navy</color> <!-- Dark FAB color for day mode -->
+    <color name="fab_icon_color">@color/white</color><!-- Icon color -->
+</resources>

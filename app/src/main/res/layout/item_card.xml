@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/card_elevation"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Item Image -->
+        <ImageView
+            android:id="@+id/iv_item_photo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/image_placeholder"
+            android:scaleType="centerCrop"
+            android:background="@android:color/holo_blue_dark" />
+
+        <!-- Item Name -->
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/text_horizontal_margin"
+            android:layout_marginTop="@dimen/text_vertical_margin"
+            android:text="@string/name"
+            android:fontFamily="@font/poppins"
+            android:textAlignment="viewStart"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_title"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+        <!-- Item Description -->
+        <TextView
+            android:id="@+id/item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:maxLines="3"
+            android:text="@string/description"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins"
+            android:textSize="@dimen/text_size_body"
+            android:textAppearance="?attr/textAppearanceBody2" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

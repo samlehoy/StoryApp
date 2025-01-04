@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_start">16dp</dimen>
+    <dimen name="icon_padding">8dp</dimen>
+    <dimen name="text_padding">16dp</dimen>
+
+    <!--    item card-->
+    <dimen name="card_margin">0dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_elevation">6dp</dimen>
+    <dimen name="text_horizontal_margin">12dp</dimen>
+    <dimen name="text_vertical_margin">12sp</dimen>
+    <dimen name="text_margin">12sp</dimen>
+    <dimen name="text_size_title">16sp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <!--    item card-->
+
+    <!--    create story page-->
+    <dimen name="layout_padding">16dp</dimen>
+    <dimen name="image_height">400dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <!--    create story page-->
+</resources>

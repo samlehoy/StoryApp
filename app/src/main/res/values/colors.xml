@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="navy">#2D3D4F</color>
+    <color name="navy_disable">#452D3D4F</color>
+    <color name="hint_color">#A0A0A0</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="edittext_background_color">#FFFFFF</color> <!-- White -->
+    <color name="edittext_stroke_color">#D3D3D3</color> <!-- Light Gray -->
+    <color name="menu_icon_tint">#000000</color> <!-- Black -->
+    <color name="fab_color">@color/white</color> <!-- Light FAB color for night mode -->
+    <color name="fab_icon_color">@color/black</color> <!-- Icon color -->
+
+
+    <color name="primaryColor">#909EDC</color>
+    <color name="secondaryColor">#8E90A0</color>
+    <color name="tertiaryColor">#A5889E</color>
+    <color name="errorColor">#FF5449</color>
+    <color name="successColor">#AAD9AA</color>
+    <color name="neutral">#988E8F</color>
+    <color name="neutralVariant">#9F8C8E</color>
+</resources>
